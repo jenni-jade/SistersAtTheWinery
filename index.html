@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Triple the Celebration! 🎉</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500&display=swap");
+
+      body {
+        font-family: "Poppins", sans-serif;
+        margin: 0;
+        background: #f8f8f8;
+        color: #333;
+        line-height: 1.6;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 30px;
+        background: #fff;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        text-align: center; /* Added to center the map */
+      }
+
+      h1,
+      h2 {
+        text-align: center;
+        font-family: "Playfair Display", serif;
+        color: #333;
+      }
+
+      h1 {
+        font-size: 2.5em;
+        margin-bottom: 0.3em;
+      }
+
+      h2 {
+        font-size: 1.6em;
+        margin-bottom: 1em;
+      }
+
+      p {
+        margin-bottom: 1.5em;
+      }
+
+      .details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2em;
+      }
+
+      .details div {
+        text-align: center;
+        margin-bottom: 1em;
+      }
+
+      .details strong {
+        font-weight: 500;
+      }
+
+      .sisters {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 2em;
+      }
+
+      .sisters img {
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin: 10px;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Button Styles */
+      .rsvp a,
+      .gallery-link a,
+      .winery-link a {
+        display: inline-block;
+        padding: 12px 25px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 500;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        transition: transform 0.2s ease, background-color 0.3s;
+        margin-bottom: 1em;
+      }
+
+      .rsvp a {
+        background-color: #c79d65;
+      }
+
+      .gallery-link a {
+        background-color: #8b6f4b;
+      }
+
+      .winery-link a {
+        background-color: #5d4027;
+        color: #fff;
+      }
+
+      .rsvp a:hover {
+        background-color: #b08959;
+        transform: translateY(-3px);
+      }
+
+      .gallery-link a:hover {
+        background-color: #755b3c;
+        transform: translateY(-3px);
+      }
+
+      .winery-link a:hover {
+        background-color: #462f1a;
+        transform: translateY(-3px);
+      }
+
+      /* Media query for responsiveness */
+      @media (max-width: 600px) {
+        h1 {
+          font-size: 2em;
+        }
+
+        h2 {
+          font-size: 1.4em;
+        }
+
+        .sisters img {
+          width: 100px;
+          height: 100px;
+        }
+
+        iframe {
+          /* Make the map responsive */
+          width: 100%;
+          height: 300px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Triple the Celebration! 🎉</h1>
+      <p>
+        Join us for a birthday bash to remember as we celebrate Sandra, Jen, and
+        Chris! We'll be enjoying live music at the Harvest Barn.
+      </p>
+
+      <div class="details">
+        <div>
+          <strong>Date:</strong><br />
+          November 9th, 2024
+        </div>
+        <div>
+          <strong>Time:</strong><br />
+          11:00 AM - 6:00 PM
+        </div>
+        <div>
+          <strong>Location:</strong><br />
+          Stone Tower Winery
+        </div>
+      </div>
+
+      <div class="sisters">
+        <img src="gallerypics/sandra.jpeg" alt="Sandra" />
+        <img
+          src="gallerypics/Screenshot 2024-10-18 at 6.16.50 PM.png"
+          alt="Jen"
+        />
+        <img
+          src="gallerypics/Screenshot 2024-10-18 at 6.19.26 PM.png
+"
+          alt="Chris"
+        />
+      </div>
+
+      <p>
+        Let's raise a glass (or three!) to these amazing ladies and enjoy an
+        afternoon of fun, laughter, and great company at the beautiful Stone
+        Tower Winery, while enjoying live music!
+      </p>
+
+      <div class="gallery-link">
+        <a href="gallery.html" target="_blank">View Photo Gallery</a>
+      </div>
+
+      <div class="winery-link">
+        <a href="https://www.stonetowerwinery.com/home" target="_blank"
+          >Learn more about Stone Tower Winery</a
+        >
+      </div>
+
+      <h2>Find Your Way</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3097.8377495586055!2d-77.63932012386125!3d39.0646115716888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b614173930132f%3A0x95ef2a8b52e0a68a!2sStone%20Tower%20Winery!5e0!3m2!1sen!2sus!4v1729277716892!5m2!1sen!2sus"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+  </body>
+</html>
